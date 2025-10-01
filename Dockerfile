@@ -1,7 +1,7 @@
 FROM python:3.8.5-slim
 
 ARG GIT_REPO='https://github.com/dantebarba/autoremove-torrents.git'
-ARG BRANCH='dev'
+ARG BRANCH='master'
 
 WORKDIR /app
 
